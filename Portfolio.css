@@ -1,0 +1,82 @@
+ul{
+    font-weight: bold;
+  } 
+/*   .circular--square {
+    border-radius: 50%;
+  } */
+  #logo {
+    height: 50px;
+    width: 50px;
+    }
+body, html {
+    height: 100%;
+  }
+body  {
+    background-image: url("images/homeimage.jpg" ); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+
+
+  h2{color: white; font-family: sans-serif; text-transform: uppercase;} 
+  * {
+    box-sizing: border-box;
+    color:white;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+   
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 100%;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
